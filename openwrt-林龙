@@ -207,8 +207,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-dnscrypt-proxy=y
           CONFIG_PACKAGE_luci-app-frpc=y
           CONFIG_PACKAGE_luci-app-AdguardFilters=y
-          
-          # EOF
+          EOF
          
           # LuCI主题:
           cat >> .config <<EOF
