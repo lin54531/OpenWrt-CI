@@ -13,10 +13,10 @@ on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+  # schedule:
+  #   - cron: 0 20 * * *
+  # release:
+  #   types: [published
 
 jobs:
   build:
@@ -213,6 +213,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-koolproxyR=y
           CONFIG_PACKAGE_luci-theme-atmateria=y
           CONFIG_PACKAGE_luci-theme-rosy
+          CONFIG_PACKAGE_luci-app-wirele=y
           EOF
          
           # LuCI主题:
